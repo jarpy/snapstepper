@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "snapstepper"
+version = "0.1.0"
+description = ""
+authors = ["Toby McLaughlin <toby@jarpy.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyserial = "^3.5"
+lumix-control = {git = "https://github.com/jarpy/python-lumix-control"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
